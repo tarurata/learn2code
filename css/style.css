@@ -12,6 +12,7 @@ html, body, h1, h2, h3, h4, ul, ol, dl, li, dt, dd, p, div, span, img, a, table,
 article, header, footer, aside, figure, figcaption, nav, section { 
   display:block;
 }
+
 body {
   line-height: 1;
   -ms-text-size-adjust: 100%;
@@ -21,3 +22,207 @@ ol, ul {
   list-style: none;
   list-style-type: none;
 }
+
+.header {
+  background-color: rgba(34, 49, 52, 0.9);
+  height: 65px;
+  line-height: 65px;
+  width: 100%;
+  position: fixed;
+}
+
+.header__logo {
+  max-height: 33px;
+  vertical-align: middle;
+  width: 150px;
+  margin-left: 20px;
+}
+
+.header__list {
+  float: right;
+  color: white;
+  height: 100%;
+}
+
+.header__listItem {
+  display: inline;
+  margin-right: 35px;
+  color: white;
+}
+
+.main {
+  background-image: url(https://prog-8.com/images/html/advanced/top.png);
+  padding-top: 180px;
+  height: 550px;
+  width: 100%;
+  text-align: center;
+  background-size: cover;
+  color:white;
+}
+
+.main__container {
+  margin: 0 auto;
+  height: 550px;
+  width: 1100px;
+}
+
+.main__title {
+  font-weight: bold;
+  font-size: 45px;
+  line-height: 60px;
+  letter-spacing: 5px;
+  margin: auto auto;
+  opacity: 0.7;
+}
+
+.main__title--sub {
+  margin-top 10px;
+  font-size: 16px;
+  line-height: 20px;
+  opacity: 0.7;
+}
+
+.main__button {
+  display: inline-block;
+  color: white;
+  margin-top: 100px ;
+  margin: 10px 0 ;
+  padding: 10px 25px;
+  background-color: #239b76;
+  text-decoration: none;
+  border-radius: 5px;
+  opacity: 0.8;
+}
+
+.main__button:hover {
+  opacity: 1;
+}
+
+.main__button--signUp {
+  background-color: #239b76;
+}
+
+.main__button--facebook {
+  background-color: #3b5998;
+  margin-right: 10px;
+}
+
+.fa-facebook {
+  margin-right: 5px;
+}
+
+.fa-twitter {
+  margin-right: 5px;
+}
+
+.main__button--twitter {
+  background-color: #55acee;
+}
+
+.lessons {
+  background-color: #f7f7f7;
+  padding: 0 60px;
+  text-align: center;
+  height: 550px;
+
+}
+
+.lessons__container {
+  margin: 0 auto;
+  width: 1100px;
+}
+
+.lessons__title {
+  padding-top: 60px;
+  padding-bottom: 60px;
+  font-size: 24px;
+}
+
+.lessons__lesson {
+  float: left;
+  width: 25%;
+}
+
+.lessons__lessonIcon {
+  position: relative;
+}
+
+.lessons__innerText {
+  color: white;
+  position: absolute;
+  top : 45%;
+  width : 100%;
+}
+
+.lessons__lessonText {
+  color: #b3aeb5;
+  width: 80%;
+  margin-top: 15px;
+  font-size: 13px;
+  display: inline-block;
+}
+
+.start {
+  background-color: #f7f7f7;
+  text-align: center;
+  border-bottom: 1px solid #eee;
+}
+
+.start__container {
+  margin: 0 auto;
+  width: 1100px;
+}
+
+.start__title {
+  font-size: 22px;
+}
+
+.start__title--sub {
+  font-size: 20px;
+  padding-top: 5px;
+  padding-bottom: 40px;
+}
+
+.start__button {
+  display: inline-block;
+  margin-bottom: 60px;
+  color: white;
+  background-color: #5DCA88;
+  padding: 20px 40px;
+  border-radius: 5px;
+  cursor: pointer;
+  box-shadow: 0 7px #1a7940;
+  text-decoration: none;
+  opacity: 0.8;
+}
+
+.start__button:hover {
+  background-color: #5dca88;
+  opacity: 1;
+  box-shadow: none;
+  position: relative;
+  top: 3px;
+}
+
+.footer {
+  height: 80px;
+  margin: auto;
+  padding-top: 30px;
+  padding-bottom: 20px;
+}
+
+.footer__container {
+  margin: 0 auto;
+  width: 1100px;
+}
+
+.footer__logo {
+  height: 25px;
+  vertical-align: middle;
+}
+
+.footer__text {
+  font-size: 10px;
+  opacity: 0.4;
+}
+
