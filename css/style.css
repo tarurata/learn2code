@@ -13,6 +13,10 @@ article, header, footer, aside, figure, figcaption, nav, section {
   display:block;
 }
 
+* {
+  box-sizing: border-box;
+}
+
 body {
   line-height: 1;
   -ms-text-size-adjust: 100%;
@@ -29,6 +33,13 @@ ol, ul {
   line-height: 65px;
   width: 100%;
   position: fixed;
+}
+
+.header__container {
+
+  margin: 0 auto;
+  max-width: 1100px;
+  width: 100%;
 }
 
 .header__logo {
@@ -53,7 +64,6 @@ ol, ul {
 .main {
   background-image: url(https://prog-8.com/images/html/advanced/top.png);
   padding-top: 180px;
-  height: 550px;
   width: 100%;
   text-align: center;
   background-size: cover;
@@ -62,8 +72,8 @@ ol, ul {
 
 .main__container {
   margin: 0 auto;
-  height: 550px;
-  width: 1100px;
+  max-width: 1100px;
+  width: 100%;
 }
 
 .main__title {
@@ -123,13 +133,13 @@ ol, ul {
   background-color: #f7f7f7;
   padding: 0 60px;
   text-align: center;
-  height: 550px;
 
 }
 
 .lessons__container {
+  max-width: 1100px;
   margin: 0 auto;
-  width: 1100px;
+  width: 100%;
 }
 
 .lessons__title {
@@ -162,15 +172,21 @@ ol, ul {
   display: inline-block;
 }
 
+.lessons__clear {
+  clear: left;
+}
+
 .start {
   background-color: #f7f7f7;
   text-align: center;
+  padding-top:60px;
   border-bottom: 1px solid #eee;
 }
 
 .start__container {
+  max-width: 1100px;
   margin: 0 auto;
-  width: 1100px;
+  width: 100%;
 }
 
 .start__title {
@@ -212,8 +228,9 @@ ol, ul {
 }
 
 .footer__container {
+  max-width: 1100px;
   margin: 0 auto;
-  width: 1100px;
+  width: 100%;
 }
 
 .footer__logo {

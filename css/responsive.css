@@ -1,0 +1,11 @@
+@media (max-width: 1000px) {
+  .lessons__container {
+    width: 25%;
+  }
+
+  .lessons__lesson {
+    width: 100%;
+  }
+
+
+}
